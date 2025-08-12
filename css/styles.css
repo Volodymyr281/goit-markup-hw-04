@@ -134,6 +134,10 @@ a {
   opacity: 1;
 }
 
+.current {
+  color: #404bbf;
+}
+
 .contacts {
   font-style: normal;
   margin: auto;
