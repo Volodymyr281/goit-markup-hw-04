@@ -335,15 +335,21 @@ a {
   text-align: center;
 }
 
+.our-team-item a {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
 .socoial-networks {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #4d5ae5;
 }
 
 /* section-portfolio */
