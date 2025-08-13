@@ -338,6 +338,9 @@ a {
 }
 
 .our-team-item a {
+  fill: none;
+  stroke: #fff;
+  transition: stroke 250ms ease, background-color 250ms ease;
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
@@ -345,6 +348,10 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+}
+.our-team-item a:hover {
+  stroke: #fff;
+  background-color: #31d0aa;
 }
 
 .socoial-networks {
@@ -390,10 +397,33 @@ a {
 
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
+  position: relative;
+  overflow: hidden;
 }
 
 .taki {
   margin-bottom: 8px;
+}
+
+.portfolio-item:hover.sensation-overlay {
+  transform: translateY(0);
+}
+
+.sensation-overlay {
+  position: absolute;
+  transform: translateY(100%);
+  transition: transform 500ms ease;
+  top: 0;
+  left: 0;
+  background-color: rgba(77, 90, 229, 0.6);
+  height: 100%;
+  width: 100%;
+  padding: 40px 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 .portfolio-name {
@@ -422,6 +452,8 @@ a {
   margin: 0 auto;
 }
 
+.container-media {
+}
 .footer .logo {
   font-size: 18px;
   line-height: 1.17;
