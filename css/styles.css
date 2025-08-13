@@ -399,6 +399,8 @@ a {
   flex-basis: calc((100% - 48px) / 3);
   position: relative;
   overflow: hidden;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .taki {
@@ -406,7 +408,10 @@ a {
 }
 
 .portfolio-item:hover.sensation-overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
+
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .sensation-overlay {
@@ -452,8 +457,15 @@ a {
   margin: 0 auto;
 }
 
-.container-media {
+.container-footer-logo {
 }
+
+.container-media {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+
 .footer .logo {
   font-size: 18px;
   line-height: 1.17;
@@ -464,6 +476,14 @@ a {
 .footer-logo {
   margin-bottom: 16px;
   display: inline-block;
+}
+.footer-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer-text {
