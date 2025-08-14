@@ -315,7 +315,10 @@ a {
   align-items: center;
   gap: 24px;
 }
-
+.networks-list {
+}
+.networks-item {
+}
 .our-team-item {
   background-color: #ffffff;
   display: block;
@@ -399,7 +402,8 @@ a {
   flex-basis: calc((100% - 48px) / 3);
   position: relative;
   overflow: hidden;
-
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -409,9 +413,6 @@ a {
 
 .portfolio-item:hover.sensation-overlay {
   transform: translateY(0%);
-
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .sensation-overlay {
@@ -464,6 +465,29 @@ a {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
+}
+
+.social-media-list {
+}
+.social-media-item {
+}
+
+.social-media-item a {
+  fill: none;
+  stroke: #fff;
+  transition: stroke 250ms ease, background-color 250ms ease;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.social-media-item a:hover {
+  stroke: #fff;
+  background-color: #31d0aa;
 }
 
 .footer .logo {
