@@ -461,10 +461,14 @@ a {
   align-items: baseline;
 }
 
+.container-footer {
+  display: flex;
+  margin-left: 156px;
+}
+
 .container-footer-logo {
-  /* display: flex;
   align-items: baseline;
-  margin-right: 120px; */
+  margin-right: 120px;
 }
 
 .container-media {
