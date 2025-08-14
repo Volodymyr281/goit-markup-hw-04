@@ -416,7 +416,7 @@ a {
   margin-bottom: 8px;
 }
 
-.portfolio-item:hover .sensation-overlay {
+.portfolio-item:hover.sensation-overlay {
   transform: translateY(0%);
 }
 
@@ -482,7 +482,6 @@ a {
   display: flex;
   align-items: baseline;
   gap: 16px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-item {
@@ -504,9 +503,11 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-media-item a:hover {
+.social-media-item a:hover,
+.social-media-item a:focus {
   background-color: #31d0aa;
   stroke: #fff;
 }
