@@ -316,6 +316,10 @@ a {
   gap: 24px;
 }
 .networks-list {
+  display: flex;
+  gap: 24px;
+  margin-left: 16px;
+  margin-bottom: 32px;
 }
 .networks-item {
 }
