@@ -464,28 +464,25 @@ a {
 .container-footer {
   display: flex;
   margin-left: 156px;
+  align-items: baseline;
 }
 
 .container-footer-logo {
-  align-items: baseline;
   margin-right: 120px;
 }
 
 .container-media {
-  /* display: flex; */
-  /* align-items: baseline; */
 }
 
 .social-media-list {
   display: flex;
   align-items: baseline;
   gap: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-item {
   display: flex;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socoial-networks {
@@ -506,9 +503,8 @@ a {
 }
 
 .social-media-item a:hover {
-  stroke: #fff;
-
   background-color: #31d0aa;
+  stroke: #fff;
 }
 
 .footer .logo {
