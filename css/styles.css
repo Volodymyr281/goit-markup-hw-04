@@ -417,7 +417,7 @@ a {
   margin-bottom: 8px;
 }
 
-.portfolio-item:hover.sensation-overlay {
+.portfolio-item:hover .sensation-overlay {
   transform: translateY(0%);
 }
 
