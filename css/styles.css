@@ -318,8 +318,8 @@ a {
 .networks-list {
   display: flex;
   gap: 24px;
+  margin-top: 8px;
   margin-left: 16px;
-  margin-bottom: 32px;
 }
 .networks-item {
 }
@@ -341,8 +341,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.container-networks {
-}
 
 .our-team-item a {
   fill: none;
@@ -357,7 +355,8 @@ a {
   border-radius: 50%;
 }
 
-.our-team-item a:hover {
+.our-team-item a:hover,
+.our-team-item a:focus {
   stroke: #fff;
   background-color: #31d0aa;
 }
