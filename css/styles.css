@@ -350,15 +350,16 @@ a {
   height: 40px;
   background-color: #4d5ae5;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   border-radius: 50%;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-team-item a:hover,
 .our-team-item a:focus {
   stroke: #fff;
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .socoial-networks {
