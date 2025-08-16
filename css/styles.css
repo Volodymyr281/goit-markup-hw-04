@@ -416,18 +416,16 @@ a {
   position: relative;
   overflow: hidden;
 }
-.stylish-text {
-}
 
 .taki {
   margin-bottom: 8px;
 }
 
-.portfolio-item:hover .sensation-overlay {
+.portfolio-item:hover .stylish-text {
   transform: translateY(0%);
 }
 
-.sensation-overlay {
+.stylish-text {
   position: absolute;
   transform: translateY(100%);
   transition: transform 500ms ease;
